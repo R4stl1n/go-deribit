@@ -11,7 +11,7 @@ import (
 
 // Price Price in base currency
 // swagger:model price
-type Price float64
+type Price string
 
 // Validate validates this price
 func (m Price) Validate(formats strfmt.Registry) error {
